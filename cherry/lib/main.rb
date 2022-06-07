@@ -21,6 +21,5 @@ end
 # Apply the "replace loop with pipeline" refactoring.
 
 def repeat
-  data = ["This", "is", "the", "data", "to", "use"]
-  data.join("")
+  ["This", "is", "the", "data", "to", "use"].join("")
 end

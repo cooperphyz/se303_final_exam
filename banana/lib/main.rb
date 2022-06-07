@@ -26,4 +26,3 @@ end
 def entire_period_count(beginning, middle, conclusion)
   (beginning + middle + conclusion).scan(/\./).size
 end
-

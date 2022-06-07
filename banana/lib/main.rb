@@ -19,4 +19,6 @@ def period_count(beginning, middle, conclusion)
   conclusion.scan(/\./).size
 end
 
+def entire_word_count(beginning, middle, conclusion)
 
+end

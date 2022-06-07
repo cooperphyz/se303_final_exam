@@ -4,25 +4,13 @@
 #       write.
 
 def word_count(beginning, middle, conclusion)
-  entire_word_count(beginning, middle, conclusion)
-end
-
-def letter_count(beginning, middle, conclusion)
-  entire_letter_count(beginning, middle, conclusion)
-end
-
-def period_count(beginning, middle, conclusion)
-  entire_period_count(beginning, middle, conclusion)
-end
-
-def entire_word_count(beginning, middle, conclusion)
   (beginning + middle + conclusion).split.size + 2
 end
 
-def entire_letter_count(beginning, middle, conclusion)
+def letter_count(beginning, middle, conclusion)
   (beginning + middle + conclusion).size
 end
 
-def entire_period_count(beginning, middle, conclusion)
+def period_count(beginning, middle, conclusion)
   (beginning + middle + conclusion).scan(/\./).size
 end

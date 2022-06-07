@@ -23,6 +23,7 @@ end
 def repeat
   data = ["This", "is", "the", "data", "to", "use"]
   result = ""
+  data.join("")
   (0..5).each do |i|
     result += data[i]
   end

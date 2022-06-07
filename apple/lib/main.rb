@@ -3,10 +3,8 @@
 
 def story
   first = "Mr. Dursley was the director of a firm called Grunnings, which made drills."
-  middle = ""
-  middle << middlespace
   conclusion = "And that was it."
-  first + middle + conclusion
+  first + middlespace + conclusion
 end
 
 def middlespace

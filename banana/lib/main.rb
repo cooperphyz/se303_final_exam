@@ -4,9 +4,7 @@
 #       write.
 
 def word_count(beginning, middle, conclusion)
-  beginning.split.size +
-  middle.split.size +
-  conclusion.split.size
+  entire_word_count(beginning, middle, conclusion)
 end
 
 def letter_count(beginning, middle, conclusion)
@@ -20,5 +18,5 @@ def period_count(beginning, middle, conclusion)
 end
 
 def entire_word_count(beginning, middle, conclusion)
-
+  (beginning + middle + conclusion).split.size + 2
 end

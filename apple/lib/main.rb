@@ -14,5 +14,5 @@ def story
 end
 
 def middlespace
-
+  "\n" * 5
 end

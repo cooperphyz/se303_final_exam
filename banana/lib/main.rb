@@ -8,7 +8,7 @@ def word_count(beginning, middle, conclusion)
 end
 
 def letter_count(beginning, middle, conclusion)
-  beginning.size + middle.size + conclusion.size
+  entire_letter_count(beginning, middle, conclusion)
 end
 
 def period_count(beginning, middle, conclusion)
@@ -20,3 +20,8 @@ end
 def entire_word_count(beginning, middle, conclusion)
   (beginning + middle + conclusion).split.size + 2
 end
+
+def entire_letter_count(beginning, middle, conclusion)
+  (beginning + middle + conclusion).size
+end
+
